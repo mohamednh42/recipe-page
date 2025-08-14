@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White-color: hsl(0, 0%, 100%);
+    --Stone100-color: hsl(30, 54%, 90%);
+    --Stone150-color: hsl(30, 18%, 87%);
+    --Stone600-color: hsl(30, 10%, 34%);
+    --Stone900-color: hsl(24, 5%, 18%);
+    --Brown800-color: hsl(14, 45%, 36%);
+    --Rose800-color: hsl(332, 51%, 32%);
+    --Rose50-color: hsl(330, 100%, 98%);
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Outfit',sans-serif;
+    background-color: var(--Stone100-color);
+}
+
+.contanier div{
+    max-width: 600px;
+    background-color: var(--White-color);
+    position: relative;
+    left: 400px;
+    top: 30px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 15px 0;
+    font-weight: 700;
+    color: var(--Stone900-color);
+}
+p {
+    margin-bottom: 15px;
+    font-size: 400;
+    color: var(--Stone600-color);
+}
+
+h3,
+h2{
+    font-size: 600;
+    color: var(--Brown800-color);
+}
+
+.tp {
+    background-color: var(--Stone150-color);
+    border-radius: 10px;
+    list-style-position: inside;
+    margin: 15px 0 15px 15px;
+}
+
+.contanier div .tp h3 {
+    color: var(--Rose800-color);
+    margin: 5px 10px;
+}
+.contanier div .tp li {
+    margin: 5px 30px;
+}
+
+span {
+    font-weight: 600;
+    color: var(--Stone900-color);
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+li {
+    color: var(--Stone600-color);
+    margin: 5px;
+    text-align: justify;
+}
+
+
+article ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 0.5rem 0;
+}
+
+.nutrition ul li:last-child {
+  border-bottom: none;
+}
+
+.contanier {
+    margin: 100px 0;
+}
+
+article ul #s {
+    color: var(--Rose800-color);
+}
